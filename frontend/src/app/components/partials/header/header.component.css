@@ -56,9 +56,10 @@ a span {
     display: none;
 }
 
-.menu-container:hover .menu {
+.menu-container:active .menu {
     display: block;
 }
+
 
 .menu a {
     width: 100%;
