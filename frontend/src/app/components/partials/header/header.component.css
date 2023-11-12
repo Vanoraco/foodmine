@@ -60,6 +60,10 @@ a span {
     display: block;
 }
 
+.menu-container:hover .menu {
+    display: block;
+}
+
 
 .menu a {
     width: 100%;

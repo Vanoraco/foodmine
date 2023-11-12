@@ -1,0 +1,9 @@
+
+ <input-container [label]="label">
+    <input type="email" [placeholder]="label" id="email" [formControl] ="formControl">
+
+    <input-validation 
+        [control]="control"
+        [showErrorsWhen]="showErrorsWhen">
+    </input-validation>
+ </input-container>
